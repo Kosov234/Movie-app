@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href='https://css.gg/film.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Movie App</title>
+</head>
+<body>
+ 
+    <header>
+       <div class="container-header">
+            <div class="header-element name">
+                <img src="images/logo.svg">
+            </div>
+            <div class="header-element navigation">
+                <a class="navigation-active" href="index.html">MOVIES</a>
+                <a href="#Suggestions">SUGGESTIONS</a>
+                <a href="#Blog">BLOG</a>
+            </div>
+            <div class="header-element search-panel">
+                <div class="searchContainer">
+                    <img src="images/SearchIcon.svg" class="searchIcon">
+                    <input type="search" id="search" class="search" placeholder="Desired Movie">
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <div class="our-library">
+        <span>Our Library</span>
+        <div class="categoriesContainer">
+            <button value='28' class="category btn">Action</button>
+            <button value='12' class="category btn">Adventure</button>
+            <button value='16' class="category btn">Animation</button>
+            <button value='35' class="category btn">Comedy</button>
+        </div>
+    </div>
+    <div class="container" id="container">
+        <div id="movie-wrapper"></div>
+        
+    </div>
+     
+    <div id="pagination-wrapper"></div>  
+       
+       
+    
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
